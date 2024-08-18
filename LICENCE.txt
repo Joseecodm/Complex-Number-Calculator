@@ -1,0 +1,17 @@
+Here's the translation into American English:
+
+Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)
+
+Copyright 2024 José Manuel Cortes Cerón
+
+Permission is granted to copy, modify, distribute, and display the work under the following conditions:
+
+Attribution: You must give credit to the original author in the manner specified by the author or licensor (but not in any way that suggests they endorse you or your use of the work).   
+
+Non-Commercial Use: You may not use the material for commercial purposes.
+
+There are no additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.   
+
+You can obtain a copy of the license at: https://creativecommons.org/licenses/by-nc/4.0/
+
+DISCLAIMER OF WARRANTY: THIS WORK IS PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND. TO THE EXTENT PERMITTED BY APPLICABLE LAW, THE AUTHORS OR COPYRIGHT HOLDERS WILL NOT BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE WORK OR THE USE OR OTHER DEALINGS IN THE WORK.   
