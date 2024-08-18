@@ -4,7 +4,7 @@ from classes.ComplexNumber import operations
 print("Complex Number Calculator")
 print("==========================")
 print("This program performs operations on complex numbers.")
-print("Enter two complex numbers (a+bi) separated by space.")
+print("Enter two complex numbers (a+bi) separated in a single line.")
 
 # Example usage:
 print("\n")
@@ -23,32 +23,49 @@ while True:
     z2 = operations(a2, b2)
 
     # Print complex numbers before operations
-    print("z1:", z1)
-    print("z2:", z2)
+    print(f"z1: {z1}")
+    print(f"z2: {z2}")
     
-    respuesta = input("Do you want to continue with these numbers? (yes/no):")
+    respuesta = input("\nDo you want to continue with these numbers? (yes/no):")
 
     if respuesta.lower() == "no": 
         print("\nPlease enter the numbers again")
-        
-    if respuesta.lower() == "yes":
-        # Perform operations on complex numbers
-        # Addition operations
-        print("\nAddition:", z1 + z2)
-
-        # Subtraction operations
-        print("Subtraction:", z1 - z2)
-
-        # Multiplication operations
-        print("Multiplication:", z1 * z2)
-        
-        # Division operations
-        try:
-            print("Division:", z1 / z2)
-        except ZeroDivisionError:
-            print("Error: Division by zero is not allowed.")
-
-        # GoodBye messagge
-        print("\nGoodbye!")
-        break
+        continue  
     
+    # Perform operations on complex numbers   
+    elif respuesta.lower() == "yes":
+        while True:
+            # Show the options for the user to select
+            option = input(
+                "\nPlease enter the option:\n"
+                "1. Addition\n"
+                "2. Subtraction\n"
+                "3. Multiplication\n"
+                "4. Division\n"
+                "5. Exit\n"
+            )
+
+            # Perform the operation based on the user's choice
+            if option == "1":
+                print("\nAddition:", z1 + z2)
+                
+            elif option == "2":
+                print("Subtraction:", z1 - z2)
+                
+            elif option == "3":
+                print("Multiplication:", z1 * z2)
+                
+            elif option == "4":
+                try:
+                    print("Division:", z1 / z2)
+                except ZeroDivisionError as e:
+                    print(e)
+                    
+            elif option == "5":
+                print("\nGoodbye!")
+                exit()
+            else:
+                print("Invalid option. Please try again.")
+                continue
+    else:
+        print("Invalid input. Please enter 'yes' or 'no'.")
