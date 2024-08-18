@@ -1,7 +1,22 @@
 from classes.ComplexNumber import operations
 
-z1 = operations(3, 4)
-z2 = operations(1, -2)
+# Introduction to the program
+print("Complex Number Calculator")
+print("==========================")
+print("This program performs operations on complex numbers.")
+print("Enter two complex numbers (a+bi) separated by space.")
+
+# Example usage:
+print("Example: 3 4")
+
+# Take input from the user
+input_values = input("Enter z1 ")
+a1, b1 = int(input_values[0]), int(input_values[1])
+z1 = operations(a1, b1)
+
+input_values = input("Enter z2")
+a2, b2 = int(input_values[0]), int(input_values[1])
+z2 = operations(a2, b2)
 
 # Print complex numbers before operations
 print("z1:", z1)
