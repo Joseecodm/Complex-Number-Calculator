@@ -33,7 +33,7 @@ This project is a complex number calculator that allows you to perform basic ope
 
 Clone this repository:
 
-git clone https://github.com/Joseecodm/Complex-Number-Calculator.git
+`git clone https://github.com/Joseecodm/Complex-Number-Calculator.git`
 
 ## Usage Example
 
