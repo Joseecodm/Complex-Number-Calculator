@@ -7,17 +7,19 @@ print("This program performs operations on complex numbers.")
 print("Enter two complex numbers (a+bi) separated by space.")
 
 # Example usage:
-print("Example: 3 4")
+print("\n")
 
 # Take input from the user
 while True:
 
-    input_values = input("Enter z1: ")
-    a1, b1 = float(input_values[0]), float(input_values[1])
+    real_z1 = input("Enter real part of z1: ")
+    imaginary_z1 = input("Enter imaginary part of z1: ")
+    a1, b1 = float(real_z1), float(imaginary_z1)
     z1 = operations(a1, b1)
 
-    input_values = input("Enter z2: ")
-    a2, b2 = float(input_values[0]), float(input_values[1])
+    real_z2 = input("\nEnter real part of z2: ")
+    imaginary_z2 = input("Enter imaginary part of z2: ")
+    a2, b2 = float(real_z2), float(imaginary_z2)
     z2 = operations(a2, b2)
 
     # Print complex numbers before operations
